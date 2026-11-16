@@ -18,6 +18,15 @@ from src.optimizer import optimize_portfolio
 from src.risk import calculate_risk, portfolio_history
 
 app = Flask(__name__)
+CORS(
+    app,
+    resources={r"/api/*": {
+        "origins": [
+            "https://quantiva-ml-project.vercel.app",
+            "http://localhost:3000"
+        ]
+    }}
+)
 CORS(app, origins=[v.strip() for v in __import__('os').environ.get('FRONTEND_ORIGINS','http://localhost:3000').split(',')])
 
 @lru_cache(maxsize=1)
