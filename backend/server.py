@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+import joblib
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -38,12 +39,27 @@ CORS(
 def data():
     return load_data(ROOT/'data')
 
+
 @lru_cache(maxsize=1)
 def predictions():
+    saved_path = ROOT / "models" / "rf_forecasts.joblib"
+
+    if saved_path.exists():
+        bundle = joblib.load(saved_path)
+
+        forecasts = bundle["forecasts"]
+        diagnostics = bundle["diagnostics"]
+
+        return forecasts, diagnostics
+
+    # Preserve the original fallback when saved forecasts are absent
     df, returns, _ = data()
     features = build_feature_frame(df, list(returns.columns))
     selected = predict_selected(features, returns)
-    return selected if selected is not None else train_and_predict(features, returns)
+
+    return selected if selected is not None else train_and_predict(
+        features, returns
+    )
 
 def clean_number(v):
     try:
