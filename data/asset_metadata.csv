@@ -1,0 +1,49 @@
+Ticker,Company,Sector,First_Price_Date,Last_Price_Date
+ABB.NS,ABB India,Infrastructure and Capital Goods,2016-11-01,2026-10-30
+ADANIPORTS.NS,Adani Ports,Infrastructure and Logistics,2016-11-01,2026-10-30
+APOLLOHOSP.NS,Apollo Hospitals,Healthcare,2016-11-01,2026-10-30
+ASIANPAINT.NS,Asian Paints,Consumer Discretionary,2016-11-01,2026-10-30
+AXISBANK.NS,Axis Bank,Financial Services,2016-11-01,2026-10-30
+BAJAJ-AUTO.NS,Bajaj Auto,Automobiles,2016-11-01,2026-10-30
+BAJAJFINSV.NS,Bajaj Finserv,Financial Services,2016-11-01,2026-10-30
+BAJFINANCE.NS,Bajaj Finance,Financial Services,2016-11-01,2026-10-30
+BEL.NS,Bharat Electronics,Infrastructure and Capital Goods,2016-11-01,2026-10-30
+BHARTIARTL.NS,Bharti Airtel,Telecommunications,2016-11-01,2026-10-30
+BRITANNIA.NS,Britannia Industries,FMCG,2016-11-01,2026-10-30
+CIPLA.NS,Cipla,Healthcare,2016-11-01,2026-10-30
+COALINDIA.NS,Coal India,Metals and Mining,2016-11-01,2026-10-30
+DIVISLAB.NS,Divis Laboratories,Healthcare,2016-11-01,2026-10-30
+DMART.NS,Avenue Supermarts,Consumer Discretionary,2017-03-21,2026-10-30
+DRREDDY.NS,Dr Reddys Laboratories,Healthcare,2016-11-01,2026-10-30
+EICHERMOT.NS,Eicher Motors,Automobiles,2016-11-01,2026-10-30
+HAL.NS,Hindustan Aeronautics,Infrastructure and Capital Goods,2018-04-02,2026-10-30
+HCLTECH.NS,HCL Technologies,Information Technology,2016-11-01,2026-10-30
+HDFCBANK.NS,HDFC Bank,Financial Services,2016-11-01,2026-10-30
+HEROMOTOCO.NS,Hero MotoCorp,Automobiles,2016-11-01,2026-10-30
+HINDALCO.NS,Hindalco,Metals and Mining,2016-11-01,2026-10-30
+HINDUNILVR.NS,Hindustan Unilever,FMCG,2016-11-01,2026-10-30
+ICICIBANK.NS,ICICI Bank,Financial Services,2016-11-01,2026-10-30
+INFY.NS,Infosys,Information Technology,2016-11-01,2026-10-30
+IOC.NS,Indian Oil Corporation,Energy,2016-11-01,2026-10-30
+ITC.NS,ITC,FMCG,2016-11-01,2026-10-30
+JSWSTEEL.NS,JSW Steel,Metals and Mining,2016-11-01,2026-10-30
+KOTAKBANK.NS,Kotak Mahindra Bank,Financial Services,2016-11-01,2026-10-30
+LT.NS,Larsen and Toubro,Infrastructure and Capital Goods,2016-11-01,2026-10-30
+M&M.NS,Mahindra and Mahindra,Automobiles,2016-11-01,2026-10-30
+MARUTI.NS,Maruti Suzuki,Automobiles,2016-11-01,2026-10-30
+NESTLEIND.NS,Nestle India,FMCG,2016-11-01,2026-10-30
+NTPC.NS,NTPC,Power and Utilities,2016-11-01,2026-10-30
+ONGC.NS,ONGC,Energy,2016-11-01,2026-10-30
+POWERGRID.NS,Power Grid Corporation,Power and Utilities,2016-11-01,2026-10-30
+RELIANCE.NS,Reliance Industries,Energy,2016-11-01,2026-10-30
+SBILIFE.NS,SBI Life Insurance,Financial Services,2017-10-03,2026-10-30
+SBIN.NS,State Bank of India,Financial Services,2016-11-01,2026-10-30
+SIEMENS.NS,Siemens India,Infrastructure and Capital Goods,2016-11-01,2026-10-30
+SUNPHARMA.NS,Sun Pharma,Healthcare,2016-11-01,2026-10-30
+TATASTEEL.NS,Tata Steel,Metals and Mining,2016-11-01,2026-10-30
+TCS.NS,TCS,Information Technology,2016-11-01,2026-10-30
+TECHM.NS,Tech Mahindra,Information Technology,2016-11-01,2026-10-30
+TITAN.NS,Titan Company,Consumer Discretionary,2016-11-01,2026-10-30
+TRENT.NS,Trent,Consumer Discretionary,2016-11-01,2026-10-30
+ULTRACEMCO.NS,UltraTech Cement,Construction Materials,2016-11-01,2026-10-30
+WIPRO.NS,Wipro,Information Technology,2016-11-01,2026-10-30

@@ -1,0 +1,17 @@
+Check,Result
+Modeling dataset rows,2117
+Modeling dataset columns,64
+Unique dates,2117
+Start date,2018-04-03
+End date,2026-10-30
+Stock return assets,48
+Duplicate dates,0
+Missing cells in modeling dataset,0
+Non-finite numeric cells,0
+Return matrix missing cells,0
+Return matrix non-finite cells,0
+Maximum macro source age days,7
+Macro age audit rows,2116
+Maximum macro source age days (value in supplied quality report),11
+Maximum macro source age days (recomputed from supplied age-audit file),7
+Age audit vs quality report,Discrepancy: supplied report says 11 days; supplied row-level audit max is 7 days
